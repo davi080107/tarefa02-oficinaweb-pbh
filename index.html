@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Esfera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Esfera</h1>
+
+        <label for="raio">Raio:</label>
+        <input type="number" id="raio" placeholder="Digite o raio da esfera">
+
+        <button onclick="calcularEsfera()">Calcular</button>
+
+        <div id="resultados">
+            <p>Comprimento: <span id="comprimento"></span></p>
+            <p>Área: <span id="area"></span></p>
+            <p>Volume: <span id="volume"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
